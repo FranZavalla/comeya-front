@@ -1,0 +1,68 @@
+.store-card {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.5fr 1fr;
+
+  background-color: #eeeeee;
+  border-radius: 3rem;
+  border: 1px solid #e7e7e7;
+  padding: 0 1rem 0 1rem;
+
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.store-data {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 0.2fr 1fr;
+  grid-template-rows: 1fr 0.3fr;
+  grid-template-areas:
+    "photo name"
+    "photo desc";
+
+  cursor: pointer;
+}
+
+.store-photo {
+  grid-area: photo;
+  align-self: center;
+  height: 3rem;
+  width: 3rem;
+
+  border-radius: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #3e92cc;
+}
+
+.store-name {
+  grid-area: name;
+  font-weight: bold;
+}
+
+.store-desc {
+  grid-area: desc;
+  margin: 0 0 0.5rem 0;
+}
+
+.store-rating-star {
+  display: flex;
+
+  align-items: center;
+  justify-items: center;
+
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.store-rating {
+  color: black;
+}
+
+.store-star {
+  cursor: pointer;
+}

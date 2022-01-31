@@ -1,0 +1,15 @@
+#reg-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reg-input {
+  margin-bottom: 1rem !important;
+}
+
+.signup-close {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+}

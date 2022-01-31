@@ -1,0 +1,78 @@
+.order-element {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 0.4fr 0.4fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "user products price cancel accept";
+
+  background-color: #eeeeee;
+
+  margin: 0.5rem auto 0.5rem auto;
+  padding-left: 2rem;
+
+  border: 1px #e7e7e7 solid;
+  border-radius: 3rem;
+}
+
+.order-user {
+  grid-area: user;
+}
+
+.order-address {
+  grid-area: user;
+}
+
+.no-bold {
+  font-weight: normal;
+}
+
+.order-products {
+  grid-area: products;
+}
+
+.order-price {
+  grid-area: price;
+  align-self: center;
+  text-align: center;
+}
+
+.order-cancel {
+  grid-area: cancel;
+
+  align-self: center;
+  text-align: center;
+}
+
+.order-accept {
+  grid-area: accept;
+
+  align-self: center;
+  text-align: center;
+}
+
+.order-button {
+  cursor: pointer;
+}
+
+.order-button:hover {
+  font-size: 55px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.admin-no-orders {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-content: center;
+
+  padding: 5rem 0;
+}
+
+.admin-no-orders-text {
+  color: #7c7c7c;
+
+  justify-self: center;
+  align-self: center;
+}

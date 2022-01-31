@@ -1,0 +1,17 @@
+.prof-nav {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prof-title {
+  margin-left: 0.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.prof-to-menu {
+  text-decoration: none;
+  color: #3e92cc;
+}

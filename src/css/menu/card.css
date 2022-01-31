@@ -1,0 +1,30 @@
+.card-container {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 30vw;
+  height: 12vh;
+
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
+
+  padding: 0 !important;
+  border: 1px solid #e7e7e7;
+  border-radius: 3rem;
+
+  overflow: hidden;
+  background-color: #eeeeee;
+
+  cursor: pointer;
+}
+
+.card-icon {
+  align-self: flex-start;
+  width: 50%;
+}
+
+.card-text {
+  margin-right: 0.5rem;
+  color: black;
+}

@@ -1,0 +1,25 @@
+.store-list-div {
+  background-color: #f3f3f3;
+  border-radius: 3rem;
+  padding: 0.5rem 0;
+}
+
+.store-list-empty-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f3f3f3;
+  padding: 0.5rem 0 0.5rem 0;
+  border-radius: 3rem;
+}
+
+.store-list-empty-text {
+  margin: 5rem 0;
+  color: #7c7c7c;
+
+  justify-self: center;
+  align-self: center;
+
+  text-align: center;
+}

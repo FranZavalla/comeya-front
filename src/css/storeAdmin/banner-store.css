@@ -1,0 +1,36 @@
+.banner-container {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-title {
+  margin-left: 0.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.banner-to-admin {
+  text-decoration: none;
+  color: #3e92cc;
+}
+
+.banner-store-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.banner-store {
+  font-style: italic;
+  background-color: #3e92cc;
+  color: #fffaff;
+}

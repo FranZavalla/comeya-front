@@ -1,0 +1,28 @@
+#prof-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  border: 1px solid #e7e7e7;
+  border-radius: 2rem;
+
+  background-color: #e3e3e3;
+}
+
+#prof-form {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  margin-bottom: 2rem;
+}
+
+.edit-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1475b9;
+}
+
+.prof-input {
+  margin-bottom: 1rem !important;
+  background-color: #eeeeee;
+}

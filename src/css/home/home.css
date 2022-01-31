@@ -1,0 +1,8 @@
+html {
+  background-color: #eeeeee;
+}
+
+#home-container {
+  display: flex;
+  flex-direction: column;
+}

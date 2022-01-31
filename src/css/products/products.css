@@ -1,0 +1,31 @@
+.product-container {
+  background-color: #f3f3f3;
+  border-radius: 3rem;
+  padding: 0.5rem 0;
+}
+
+.product-container-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f3f3f3;
+  border-radius: 3rem;
+  padding: 0.5rem 0;
+}
+
+.product-text-empty {
+  color: #7c7c7c;
+
+  justify-self: center;
+  align-self: center;
+
+  text-align: center;
+}
+
+.empty-link {
+  text-decoration: none;
+  font-style: italic;
+  color: #3e92cc;
+}

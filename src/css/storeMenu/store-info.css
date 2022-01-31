@@ -1,0 +1,30 @@
+.store-info-container {
+  display: grid !important;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  grid-template-areas:
+    "name rating"
+    "desc .";
+}
+
+.menu-rating-star {
+  grid-area: rating;
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu-rating {
+  color: black;
+}
+
+.menu-name {
+  grid-area: name;
+}
+
+.menu-desc {
+  grid-area: desc;
+  margin: 0;
+}

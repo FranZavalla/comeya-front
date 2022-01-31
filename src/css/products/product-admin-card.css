@@ -1,0 +1,70 @@
+.product-card {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.5fr 1.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "product price edit delete";
+
+  background-color: #eeeeee;
+  border: 1px solid #e7e7e7;
+  border-radius: 3rem;
+  margin: 0.5rem 0;
+  padding: 0 1.5rem;
+}
+
+.product-info {
+  grid-area: product;
+
+  padding-left: 0.5rem;
+}
+
+.product-price {
+  grid-area: price;
+  justify-self: center;
+}
+
+.product-edit {
+  grid-area: edit;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-delete {
+  grid-area: delete;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prod-button:hover {
+  font-size: 45px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.product-info > p {
+  margin-top: 0;
+}
+
+.edit-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fffaff;
+  border: 2px solid #000;
+  box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%),
+    0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+  padding: 32px;
+}
+
+.edit-close {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,36 @@
+#banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-title {
+  margin-left: 0.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.banner-to-home {
+  text-decoration: none;
+  color: #3e92cc;
+}
+
+.banner-stores {
+  align-self: center;
+}
+
+#store-icon {
+  margin-right: 0.3rem;
+}
+
+.blue-store-icon {
+  color: #3e92cc;
+  font-size: 2.2rem !important;
+  vertical-align: text-bottom;
+}
+
+.nav-store {
+  font-style: italic;
+  background-color: #3e92cc;
+  color: #fffaff;
+}

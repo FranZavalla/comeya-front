@@ -1,0 +1,23 @@
+.sprof-nav {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sprof-title {
+  margin-left: 0.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.sprof-to-menu {
+  text-decoration: none;
+  color: #3e92cc;
+}
+
+.blue-store-icon {
+  color: #3e92cc;
+  font-size: 2.2rem !important;
+  vertical-align: text-bottom;
+}

@@ -1,0 +1,51 @@
+.product-card-container {
+  display: grid !important;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 0.3fr 0.2fr;
+  grid-template-rows: 1fr 0.5fr;
+  grid-template-areas:
+    "product price add"
+    "desc price add";
+
+  background-color: #eeeeee;
+  border-radius: 3rem;
+  border: 1px solid #e7e7e7;
+
+  padding-left: 2rem;
+
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-name {
+  grid-area: product;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product-desc {
+  grid-area: desc;
+  margin: 0;
+}
+
+.product-price {
+  grid-area: price;
+  justify-self: flex-end;
+  align-self: center;
+
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.product-add {
+  grid-area: add;
+  justify-self: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.product-add:hover {
+  font-size: 55px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

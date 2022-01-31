@@ -1,0 +1,27 @@
+.menu-bottom-div {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #f3f3f3;
+  border-radius: 3rem;
+}
+
+.menu-bottom-empty-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #f3f3f3;
+  border-radius: 3rem;
+}
+
+.menu-bottom-empty-text {
+  color: #7c7c7c;
+
+  justify-self: center;
+  align-self: center;
+
+  text-align: center;
+}
