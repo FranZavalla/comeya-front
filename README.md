@@ -80,6 +80,8 @@ For the design and development of the frontend, I used:
 # ToDo
 ### The following features were not implemented due to lack of time/knowledge. The project was thought to be developed in a month
 
+- Testing!
+
 - Change localStorage in frontend to cookies sent from backend
 - Implement images to users, stores and products
 - Delete products in cart
