@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# ComeYa - Frontend
+A simple food ordering app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+ComeYa is a project that I set out to do during the month of January 2022. The goal was to learn and develop the application with NodeJS and React, and then publish it on my curriculum.
+ComeYa is a food ordering application, from a user to a store or restaurant. It is inspired by [PedidosYa](https://www.pedidosya.com.ar/)
+This is the frontend, to see the backend [click here](https://github.com/FranZavalla/comeya-backend/)
 
-## Available Scripts
+### Table of contents
+- [Install](#install)
+- [Run](#run)
+- [Dependencies](#dependencies)
+- [Screenshots](#screenshots)
+- [ToDo](#todo)
+- [Bugs](#bugs)
 
-In the project directory, you can run:
+# Install
 
-### `npm start`
+- ```npm install```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Run
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Note**: you need React to run the frontend
 
-### `npm test`
+- ```npm start```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Dependencies
+For the design and development of the frontend, I used:
+- Material UI (MUI)
+- React-hot-toast
+- React-star-ratings
+- Use-sound
 
-### `npm run build`
+# Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Home page for users**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="./readme-images/home.png" width="800" height="400">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Sign up for users**
 
-### `npm run eject`
+<img src="./readme-images/signup.png" width="800" height="400">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Home page for stores**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./readme-images/home_store.png" width="800" height="400">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Store administration**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="./readme-images/store_admin_empty.png" width="800" height="400">
 
-## Learn More
+**Adding a product**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="./readme-images/add_product.png" width="800" height="400">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Editing store profile**
 
-### Code Splitting
+<img src="./readme-images/store_profile.png" width="800" height="400">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Main page for users**
 
-### Analyzing the Bundle Size
+<img src="./readme-images/menu.png" width="800" height="400">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Products administration**
 
-### Making a Progressive Web App
+<img src="./readme-images/products.png" width="800" height="400">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Ordering from a store**
 
-### Advanced Configuration
+<img src="./readme-images/store_menu.png" width="800" height="400">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Viewing the cart**
 
-### Deployment
+<img src="./readme-images/store_cart.png" width="800" height="400">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Store receiving the order**
 
-### `npm run build` fails to minify
+<img src="./readme-images/store_admin.png" width="800" height="400">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# ToDo
+### The following features were not implemented due to lack of time/knowledge. The project was thought to be developed in a month
+
+- Change localStorage in frontend to cookies sent from backend
+- Implement images to users, stores and products
+- Delete products in cart
+- Change the username/store_name to an email and use it as a primary key in the database
+- Add an automatic update of new orders for stores
+- Add a notice message to users when their order is accepted/cancelled
+
+# Bugs
+
+- If you enter /menu/orders directly from the search bar, the browser will not render anything
